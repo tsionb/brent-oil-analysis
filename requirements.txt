@@ -1,0 +1,27 @@
+# Core Data Science
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
+notebook
+
+# Bayesian Modeling
+pymc
+arviz
+pytensor
+
+# Time Series Analysis
+statsmodels
+scipy
+
+# Dashboard Backend
+flask
+flask-cors
+
+# API & Data Handling
+requests
+
+# Optional (for analysis)
+scikit-learn
+plotly
