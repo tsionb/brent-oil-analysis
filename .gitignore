@@ -64,7 +64,6 @@ dashboard/.env.production.local
 logs/
 
 # Data files (if large - optional)
-*.csv
 *.xlsx
 *.xls
 *.json
