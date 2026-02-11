@@ -1,21 +1,26 @@
-# brent-oil-analysis
+## Interpretation of Single Change Point Analysis
 
+### Detected Change Point
+- **Date**: 2005-02-23
+- **Model Certainty**: High
+- **Price at Change**: $48.16
 
-## Project Overview
-Analysis of how geopolitical and economic events affect Brent oil prices using Bayesian Change Point Detection.
+### Quantified Impact
+- **Before Change**: Average price of $21.44 (95% CI: $20.88 to $22.01)
+- **After Change**: Average price of $75.60 (95% CI: $75.04 to $76.16)
+- **Change**: $54.17 (252.7%% increase)
 
-## Task 1 Deliverables
-1. `docs/analysis_plan.md` - Complete analysis workflow plan
-2. `data/events.csv` - 15 key events with dates and descriptions
-3. `notebook/initial_eda.ipynb` - Initial data exploration
+### Associated Event(s)
+Based on our event research, the change point aligns with:
 
-## How to Run
-1. Install requirements: `pip install pandas numpy matplotlib jupyter`
-2. Open Jupyter: `jupyter notebook`
-3. Run `initial_eda.ipynb` to see initial analysis
+1. **Iraq War** (2003-03-20)
+   - **Impact Type**: CONFLICT
+   - **Days from Change**: 706 days
 
-## Next Steps
-Proceed to Task 2: Bayesian Change Point Modeling
+### Limitations
+1. Single change point model oversimplifies 35 years of data
+2. Only detects mean shifts, not volatility changes
+3. Correlation ≠ causation - need additional evidence
 
 ## Task 2 Summary
 
