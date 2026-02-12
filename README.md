@@ -107,3 +107,11 @@ brent-oil-analysis/
 - Summary statistics cards
 - Responsive mobile design
 - Event correlation visualization
+
+
+
+## Built With
+- Flask - Python backend
+- React - Frontend framework
+- Recharts - Charting library
+- Axios - API requests
