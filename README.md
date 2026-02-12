@@ -43,3 +43,67 @@ Proceed to Task 2: Bayesian Change Point Modeling
 1. **Extend to multiple change points** – likely additional breaks in 2008, 2014, and 2020
 2. **Incorporate volatility modeling** – detect shifts in risk regime, not just price level
 3. **Build interactive dashboard (Task 3)**
+ 
+
+## Task 3: Brent Oil Price Analysis Dashboard
+
+##  Overview
+Interactive dashboard for analyzing the impact of geopolitical events on Brent oil prices (1987-2022).
+
+##  Quick Start
+
+### Prerequisites
+- Python 3.8+
+- Node.js 14+
+- npm 6+
+
+### 1. Clone Repository
+```bash
+git clone <https://github.com/tsionb/brent-oil-analysis>
+cd brent-oil-analysis
+```
+
+### 2. Setup Backend
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
+Backend runs at http://localhost:5000
+
+### 3. Setup Frontend
+```bash
+cd frontend
+npm install
+npm start
+```
+Frontend runs at http://localhost:3000
+
+##  Project Structure
+```
+brent-oil-analysis/
+├── backend/
+│   ├── app.py              # Flask API
+│   ├── data/               # CSV files
+│   └── requirements.txt    # Python dependencies
+├── frontend/
+│   ├── src/
+│   │   ├── components/     # React components
+│   │   ├── App.js         # Main dashboard
+│   │   └── App.css        # Styles
+│   └── package.json       # Node dependencies
+└── README.md
+```
+
+##  API Endpoints
+- `GET /api/prices` - Oil price data
+- `GET /api/events` - Historical events
+- `GET /api/summary` - Summary statistics
+- `GET /api/change_points` - Detected change points
+
+##  Features
+- Interactive price chart with event highlighting
+- Date range filtering
+- Summary statistics cards
+- Responsive mobile design
+- Event correlation visualization
